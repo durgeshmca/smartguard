@@ -8,12 +8,14 @@ class Dashboard extends CI_Controller{
   public function __construct()
   {
     parent::__construct();
-    //Codeigniter : Write Less Do More
+    $this->load->helper(array('common'));
+    $this->load->model('Menu_model','menu');
   }
 
   function index()
   {
-
+    $data = $this->menu->getMenu(1, 1);
+    load_views('dashboard/dashboard_content',['data'=>$data]);
   }
 
 }
