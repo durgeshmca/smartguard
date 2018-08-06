@@ -23,7 +23,26 @@ class Menu_model extends CI_Model{
           }
         }
       //now for get sub menu level 1
-      $menuArray = $this->getSubMenu(1,  $menuIds);
+      foreach ($menuArray as $key => $value) {
+        $menuArray[$key] ['sub']= $this->getSubMenu($key, $menuIds);
+        //for level 2
+        if(count($menuArray[$key] ['sub']) > 0){
+          foreach ($menuArray[$key] ['sub'] as $key1 => $value1) {
+            $subMenu = $this->getSubMenu($key1, $menuIds);
+            if(count($subMenu) > 0){
+            $menuArray[$key] ['sub'][$key1]['sub'] = $subMenu;
+            //for level 3
+            foreach ($menuArray[$key] ['sub'][$key1]['sub'] as $key2 => $value2) {
+              $subMenu = $this->getSubMenu($key2, $menuIds);
+            }
+            if(count($subMenu) > 0){
+              $menuArray[$key] ['sub'][$key1]['sub'][$key2]['sub'] = $subMenu;
+            }
+          }
+          }
+        }
+      }
+    //  $menuArray = $this->getSubMenu(1,  $menuIds);
 
     }
     return $menuArray;
@@ -71,7 +90,7 @@ class Menu_model extends CI_Model{
     $subMenu  = array();
     foreach ($menuArray as $menuItem) {
       if ($menuItem['parent_id'] == $menuId) {
-          $subMenu[$menuId][$menuItem['menu_id']] = $menuItem;
+          $subMenu[$menuItem['menu_id']] = $menuItem;
       }
     }
 
