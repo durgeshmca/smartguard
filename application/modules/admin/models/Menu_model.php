@@ -14,37 +14,7 @@ class Menu_model extends CI_Model{
   {
     $menuArray = array();
     $menuIds = $this->getMenuIds($groupID);
-    //process menu
-    //create an array according to menu
-    if (is_array($menuIds)) {
-        foreach ($menuIds as  $menuItem) {
-          if ($menuItem['parent_id'] == 0) { //for main menus
-            $menuArray[$menuItem['menu_id']] = $menuItem;
-          }
-        }
-      //now for get sub menu level 1
-      foreach ($menuArray as $key => $value) {
-        $menuArray[$key] ['sub']= $this->getSubMenu($key, $menuIds);
-        //for level 2
-        if(count($menuArray[$key] ['sub']) > 0){
-          foreach ($menuArray[$key] ['sub'] as $key1 => $value1) {
-            $subMenu = $this->getSubMenu($key1, $menuIds);
-            if(count($subMenu) > 0){
-            $menuArray[$key] ['sub'][$key1]['sub'] = $subMenu;
-            //for level 3
-            foreach ($menuArray[$key] ['sub'][$key1]['sub'] as $key2 => $value2) {
-              $subMenu = $this->getSubMenu($key2, $menuIds);
-            }
-            if(count($subMenu) > 0){
-              $menuArray[$key] ['sub'][$key1]['sub'][$key2]['sub'] = $subMenu;
-            }
-          }
-          }
-        }
-      }
-    //  $menuArray = $this->getSubMenu(1,  $menuIds);
-
-    }
+    $menuArray = getCompleteMenu($menuIds);
     return $menuArray;
   }
 
@@ -84,16 +54,5 @@ class Menu_model extends CI_Model{
     }
     return [];
   }
-  //recursive funtion to get menu array
-  private function getSubMenu($menuId, $menuArray = array())
-  {
-    $subMenu  = array();
-    foreach ($menuArray as $menuItem) {
-      if ($menuItem['parent_id'] == $menuId) {
-          $subMenu[$menuItem['menu_id']] = $menuItem;
-      }
-    }
 
-      return $subMenu;
-    }
 }
