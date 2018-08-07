@@ -1,0 +1,277 @@
+ERROR - 2018-08-07 04:30:29 --> Severity: error --> Exception: syntax error, unexpected ')' C:\xampp\htdocs\smartguard\application\config\hooks.php 20
+DEBUG - 2018-08-07 04:31:13 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:31:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:31:14 --> Severity: error --> Exception: syntax error, unexpected 'funtion' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 6
+DEBUG - 2018-08-07 04:31:59 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:31:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:31:59 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 04:32:00 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 04:32:42 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:32:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:32:42 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 04:32:42 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 04:32:44 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:32:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:32:44 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 04:32:44 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 04:32:46 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:32:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:32:46 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 04:32:46 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 04:32:47 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:32:47 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:32:47 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 04:32:47 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 04:33:40 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:33:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:33:40 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 04:33:40 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 04:34:40 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:34:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 04:34:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-08-07 04:34:40 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 04:34:41 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 04:34:41 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 04:39:26 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:39:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 04:39:26 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 04:39:26 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 04:40:15 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:40:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 04:40:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-08-07 04:40:15 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 04:40:15 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 04:40:15 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 04:42:22 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 04:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 04:42:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-08-07 04:42:22 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 04:42:22 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 04:42:22 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 05:04:55 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:04:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:04:55 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 05:04:55 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 05:08:52 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:08:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:08:52 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 05:08:52 --> Severity: error --> Exception: Call to a member function library() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:10:29 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:10:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:10:29 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+ERROR - 2018-08-07 05:10:29 --> Severity: error --> Exception: Call to a member function library() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:14:23 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:14:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:14:23 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 15
+ERROR - 2018-08-07 05:14:23 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 16
+DEBUG - 2018-08-07 05:14:24 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:14:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:14:24 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 15
+ERROR - 2018-08-07 05:14:24 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 16
+DEBUG - 2018-08-07 05:14:25 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:14:25 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:14:25 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 15
+ERROR - 2018-08-07 05:14:25 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 16
+DEBUG - 2018-08-07 05:17:14 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:17:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:17:14 --> Severity: Notice --> Undefined variable: CI C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 05:17:14 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 05:17:14 --> Severity: error --> Exception: Call to a member function userdata() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 05:17:32 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:17:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:17:32 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 05:17:32 --> Severity: error --> Exception: Call to a member function userdata() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 05:19:59 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:19:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:19:59 --> Severity: Notice --> Undefined variable: CI C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 05:19:59 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 05:19:59 --> Severity: error --> Exception: Call to a member function userdata() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 05:20:25 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:20:25 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:20:25 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 05:20:25 --> Severity: error --> Exception: Call to a member function userdata() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 05:20:39 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:20:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:20:39 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 15
+ERROR - 2018-08-07 05:20:39 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 16
+DEBUG - 2018-08-07 05:21:14 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:21:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:21:14 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+ERROR - 2018-08-07 05:21:14 --> Severity: error --> Exception: Call to a member function helper() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 05:36:43 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:36:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:36:44 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 15
+ERROR - 2018-08-07 05:36:44 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 16
+DEBUG - 2018-08-07 05:40:02 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:40:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:40:03 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+ERROR - 2018-08-07 05:40:03 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:40:04 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:40:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:40:04 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+ERROR - 2018-08-07 05:40:04 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:40:05 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:40:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:40:05 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+ERROR - 2018-08-07 05:40:05 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:40:05 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:40:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:40:05 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+ERROR - 2018-08-07 05:40:05 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:40:06 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:40:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:40:06 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+ERROR - 2018-08-07 05:40:06 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:40:06 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:40:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:40:06 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+ERROR - 2018-08-07 05:40:06 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:40:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:40:33 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:40:33 --> Severity: Warning --> ini_set(): A session is active. You cannot change the session module's ini settings at this time C:\xampp\htdocs\smartguard\system\libraries\Session\Session.php 314
+DEBUG - 2018-08-07 05:40:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2018-08-07 05:40:33 --> Severity: Notice --> A session had already been started - ignoring session_start() C:\xampp\htdocs\smartguard\system\libraries\Session\Session.php 143
+DEBUG - 2018-08-07 05:40:33 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:40:33 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 05:40:33 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 05:41:57 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:41:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:41:57 --> Severity: Notice --> Undefined variable: _SESSION C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+ERROR - 2018-08-07 05:41:57 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:42:54 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:42:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:42:54 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:42:54 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 05:42:54 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 05:43:44 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:43:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:43:44 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:43:44 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 05:43:44 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 05:43:46 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:43:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:43:46 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:43:46 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 05:43:46 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 05:43:47 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:43:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:43:47 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:43:47 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 05:43:47 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 05:44:14 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:44:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:45:06 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:45:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:45:06 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+DEBUG - 2018-08-07 05:45:37 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:45:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:46:27 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:46:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:46:29 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:46:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:47:23 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:47:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:47:23 --> Severity: Notice --> Undefined index: logged_in C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 8
+DEBUG - 2018-08-07 05:48:25 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:48:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:24 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:26 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:26 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:52 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:54 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:54 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:54 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:55 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:55 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:55 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:56 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:56 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:49:56 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:49:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:50:28 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:50:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:50:28 --> Severity: error --> Exception: syntax error, unexpected 'echo' (T_ECHO) C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 9
+DEBUG - 2018-08-07 05:51:46 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:51:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:51:58 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:51:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 05:51:58 --> Severity: error --> Exception: Call to undefined function redirect() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 10
+DEBUG - 2018-08-07 05:55:27 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:27 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:55:28 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:28 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:28 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:28 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:29 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:29 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:29 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:29 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:29 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:30 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:30 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:30 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:30 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:30 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:31 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:31 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:31 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:31 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:31 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:32 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:32 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:32 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:32 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:55:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:55:34 --> Global POST, GET and COOKIE data sanitized

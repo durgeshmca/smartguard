@@ -1,0 +1,251 @@
+DEBUG - 2018-08-07 05:57:57 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:57:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:57:57 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 05:57:57 --> Total execution time: 0.1736
+DEBUG - 2018-08-07 05:58:13 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:58:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:58:13 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:58:13 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 05:58:13 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 05:59:59 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 05:59:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 05:59:59 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 05:59:59 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 05:59:59 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:00:23 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:00:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:00:23 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+ERROR - 2018-08-07 06:00:23 --> Severity: Notice --> Undefined variable: CI C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 06:00:23 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+ERROR - 2018-08-07 06:00:23 --> Severity: error --> Exception: Call to a member function userdata() on null C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 06:00:57 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:00:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:00:57 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:00:57 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:00:57 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:01:41 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:01:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:01:41 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:01:41 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:01:41 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:01:44 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:01:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:01:44 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:01:44 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:01:44 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:01:45 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:01:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:01:45 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:01:45 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:01:45 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:02:12 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:02:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:02:12 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:02:12 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:02:12 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:03:08 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:08 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:03:08 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:09 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:09 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:09 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:09 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:09 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:10 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:10 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:03:10 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:03:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:09:13 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:09:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:09:13 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF) C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 15
+DEBUG - 2018-08-07 06:09:50 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:09:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:09:50 --> Severity: error --> Exception: Call to undefined function uc_lower() C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 06:10:32 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:33 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:34 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:35 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:35 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:35 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:10:35 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:10:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:11:12 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:11:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:11:12 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ',' or ')' C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 13
+DEBUG - 2018-08-07 06:11:58 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:11:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:11:58 --> Severity: error --> Exception: syntax error, unexpected ',' C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 06:11:59 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:12:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:12:00 --> Severity: error --> Exception: syntax error, unexpected ',' C:\xampp\htdocs\smartguard\application\hooks\Authentication.php 14
+DEBUG - 2018-08-07 06:12:37 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:12:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:12:48 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:12:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:12:48 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:13:08 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:13:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:13:08 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:13:08 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:13:08 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:13:11 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:13:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:13:11 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:13:11 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:13:11 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:13:13 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:13:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:13:13 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:13:13 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/header.php
+DEBUG - 2018-08-07 06:13:13 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/tempalate/menu.php
+DEBUG - 2018-08-07 06:13:53 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:13:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:13:53 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:13:53 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:13:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:13:53 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:13:53 --> Total execution time: 0.0994
+DEBUG - 2018-08-07 06:14:05 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:14:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:14:05 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:14:05 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:14:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:14:05 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:14:06 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:14:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:14:06 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:14:06 --> Total execution time: 0.0975
+DEBUG - 2018-08-07 06:14:16 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:14:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:14:16 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:14:16 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:14:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:14:16 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:14:16 --> Total execution time: 0.0948
+DEBUG - 2018-08-07 06:14:24 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:14:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:14:24 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:14:24 --> Total execution time: 0.1367
+DEBUG - 2018-08-07 06:35:21 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:35:21 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:35:21 --> 404 Page Not Found: /index
+DEBUG - 2018-08-07 06:35:31 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:35:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:35:31 --> 404 Page Not Found: /index
+DEBUG - 2018-08-07 06:36:07 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:36:07 --> 404 Page Not Found: /index
+DEBUG - 2018-08-07 06:36:09 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:36:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:36:09 --> 404 Page Not Found: /index
+DEBUG - 2018-08-07 06:36:14 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:36:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:36:14 --> 404 Page Not Found: /index
+DEBUG - 2018-08-07 06:36:21 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:36:21 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:36:21 --> Severity: error --> Exception: syntax error, unexpected '=', expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:36:21 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:36:21 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:36:21 --> Severity: error --> Exception: syntax error, unexpected '=', expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:36:44 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:36:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:36:44 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:37:19 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:37:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:37:19 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:37:54 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:37:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:37:54 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:37:55 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:37:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:37:55 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:37:56 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:37:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:37:56 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:37:56 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:37:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:37:56 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:37:57 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:37:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-07 06:37:57 --> Severity: error --> Exception: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' C:\xampp\htdocs\smartguard\application\config\sg_setting.php 10
+DEBUG - 2018-08-07 06:41:23 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:41:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:41:24 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:41:24 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:41:43 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:41:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:41:43 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:41:43 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/models/Menu_model.php
+DEBUG - 2018-08-07 06:41:43 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:41:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:41:44 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:41:44 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:41:44 --> Total execution time: 0.1514
+DEBUG - 2018-08-07 06:43:15 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:43:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:43:15 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:43:15 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:43:15 --> Total execution time: 0.1495
+DEBUG - 2018-08-07 06:43:17 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:43:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:43:17 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:43:17 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:43:17 --> Total execution time: 0.0979
+DEBUG - 2018-08-07 06:43:18 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:43:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:43:19 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:43:19 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:43:19 --> Total execution time: 0.1026
+DEBUG - 2018-08-07 06:43:20 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:43:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:43:20 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:43:20 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:43:20 --> Total execution time: 0.0995
+DEBUG - 2018-08-07 06:47:25 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:47:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:47:25 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:47:25 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:47:25 --> Total execution time: 0.1763
+DEBUG - 2018-08-07 06:50:05 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:50:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:50:11 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:50:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:50:11 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:50:11 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:50:11 --> Total execution time: 0.0913
+DEBUG - 2018-08-07 06:50:40 --> UTF-8 Support Enabled
+DEBUG - 2018-08-07 06:50:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-07 06:50:40 --> Config file loaded: C:\xampp\htdocs\smartguard\application\config/sg_setting.php
+DEBUG - 2018-08-07 06:50:40 --> File loaded: C:\xampp\htdocs\smartguard\application\modules/admin/views/login/login.php
+DEBUG - 2018-08-07 06:50:40 --> Total execution time: 0.1100

@@ -1,4 +1,6 @@
 <?php
+session_start();
+$_SESSION['logged_in'] = FALSE;
 /**
  * CodeIgniter
  *
@@ -313,7 +315,7 @@ switch (ENVIRONMENT)
 	 *
 	 */
 	require_once BASEPATH . 'dotenv/autoloader.php';
-	
+
 	$dotenv = new Dotenv\Dotenv(__DIR__);
 	$dotenv->load();
 
