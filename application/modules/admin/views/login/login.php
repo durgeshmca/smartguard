@@ -38,7 +38,7 @@
 
     <?php echo form_open('/admin/login'); ?>
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="User Name" name="user_name">
+        <input type="text" class="form-control" placeholder="User Name" name="user_name">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
@@ -58,6 +58,16 @@
           <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
         </div>
         <!-- /.col -->
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <?php
+          if ($this->session->flashdata('error')) {
+            echo "<div class='alert alert-danger'>".$this->session->flashdata('error')."</div>";
+          }
+          echo validation_errors();
+          ?>
+        </div>
       </div>
     <?php echo form_close(); ?>
 

@@ -1,6 +1,6 @@
 <?php
-session_start();
-$_SESSION['logged_in'] = FALSE;
+// session_start();
+// $_SESSION['logged_in'] = FALSE;
 /**
  * CodeIgniter
  *
