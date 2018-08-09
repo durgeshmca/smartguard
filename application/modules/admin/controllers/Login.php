@@ -9,6 +9,7 @@ class Login extends CI_Controller{
     parent::__construct();
     $this->load->library('form_validation');
     $this->load->model(array('login_model', 'menu_model'));
+    $this->load->helper('menu');
   }
 
   function index()
@@ -38,7 +39,10 @@ class Login extends CI_Controller{
               //user is valid
               //nowset user's session and data
               $_SESSION['logged_in'] = TRUE;
-              $_SESSION['userDetails']   = $loginData;
+              $_SESSION['userDetails'] ['login_id']  = $loginData['login_id'];
+              $_SESSION['userDetails'] ['user_id']   = $loginData['user_id'];
+              $_SESSION['userDetails'] ['group_id']  = $loginData['group_id'];
+              $_SESSION['userDetails'] ['owner_id']  = $loginData['owner_id'];
               //get menu
               $_SESSION['menu'] = $this->menu_model->getMenu($loginData['user_id'], $loginData['group_id']);
               $this->session->set_flashdata('success', 'You have logged in successfully');

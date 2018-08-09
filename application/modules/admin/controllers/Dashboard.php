@@ -14,7 +14,7 @@ class Dashboard extends CI_Controller{
 
   function index()
   {
-    $data = $this->menu->getMenu(1, 1);
+    $data = $_SESSION['menu'];
     load_views('dashboard/dashboard_content',['data'=>$data]);
   }
 

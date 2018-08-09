@@ -1,5 +1,5 @@
-<pre>
-<?php print_r($data);die; ?>
+<!-- <pre> -->
+<?php //print_r($data);die; ?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
