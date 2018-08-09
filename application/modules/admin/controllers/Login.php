@@ -11,7 +11,12 @@ class Login extends CI_Controller{
     $this->load->model(array('login_model', 'menu_model'));
     $this->load->helper('menu');
   }
-
+/**
+ * method to handle user login and session binding
+ * 
+ * @param user_name login id of the user
+ * @param pwd       password of the user
+ */
   function index()
   {
     try {
@@ -54,7 +59,10 @@ class Login extends CI_Controller{
       }
       $this->load->view('login/login');
     } catch (\Exception $e) {
-      echo $e->getMessege();
+      //log error
+      $message = $e->getMessage().' Error at line: '.__LINE__.' in file: '.__FILE__.' class: '.__CLASS__.' method: '. __METHOD__.'';
+      log_message('error', $message);
+      show_error('Oops ! Some error occured. Please retry.');
     }
 
 

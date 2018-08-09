@@ -59,3 +59,72 @@ function getSubMenu($menuId, $menuArray = array())
     }
     return $menuArray;
   }
+
+  //render menu for admin
+  function renderMenu()
+  {
+    $menu = '';
+      foreach ($_SESSION['menu'] as $menuId => $menuItem) {
+          //for level 0
+            if (array_key_exists('sub', $menuItem) && count($menuItem['sub'] > 0)) {
+              $menu .= '<li class="treeview">
+                        <a href="#">
+                        <i class="fa fa-share"></i> <span>'.$menuItem['menu_name'].'</span>
+                        <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                        </a>';
+              $menu .= '<ul class="treeview-menu">';
+              foreach ($menuItem['sub'] as $menuId1 => $menuItem1) {
+                if (array_key_exists('sub', $menuItem1) && count($menuItem1['sub'] > 0)) {
+                  $menu .= '<li class="treeview">
+                        <a href="#">
+                        <i class="fa fa-share"></i> <span>'.$menuItem1['menu_name'].'</span>
+                        <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                        </a>';
+                $menu .= '<ul class="treeview-menu">';
+                  
+                foreach ($menuItem1['sub'] as $menuId2 => $menuItem2) {
+                  if (array_key_exists('sub', $menuItem2) && count($menuItem2['sub'] > 0)) {
+                    $menu .= '<li class="treeview">
+                          <a href="#">
+                          <i class="fa fa-share"></i> <span>'.$menuItem2['menu_name'].'</span>
+                          <span class="pull-right-container">
+                          <i class="fa fa-angle-left pull-right"></i>
+                          </span>
+                          </a>';
+                  $menu .= '<ul class="treeview-menu">';
+                  foreach ($menuItem2['sub'] as $menuId3 => $menuItem3) {
+                    if (array_key_exists('sub', $menuItem3) && count($menuItem3['sub'] > 0)) {
+                      $menu .= '<li class="treeview">
+                            <a href="#">
+                            <i class="fa fa-share"></i> <span>'.$menuItem3['menu_name'].'</span>
+                            <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                            </span>
+                            </a>';
+                    // $menu .= '<ul class="treeview-menu">';
+                    // $menu .= '</ul></li>';
+                    }else {
+                    $menu .= '<li><a href="#"><i class="fa fa-circle-o"></i>'. $menuItem3['menu_name'].'</a></li>';
+                    }
+                  }
+                  $menu .= '</ul></li>';
+                  }else {
+                  $menu .= '<li><a href="#"><i class="fa fa-circle-o"></i>'. $menuItem2['menu_name'].'</a></li>';
+                  }
+                }
+                $menu .= '</ul></li>';
+                }else {
+                $menu .= '<li><a href="#"><i class="fa fa-circle-o"></i>'. $menuItem1['menu_name'].'</a></li>';
+                }
+              }
+              $menu .= '</ul></li>';
+            } else {
+              $menu .= '<li><a href="#"><i class="fa fa-circle-o"></i>'. $menuItem['menu_name'].'</a></li>';
+            }
+      }
+      return $menu;
+  }

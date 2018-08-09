@@ -1,2 +1,3 @@
 logs/
 sg_cache/
+.env.development
