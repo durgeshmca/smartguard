@@ -1,9 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+require APPPATH . '/libraries/SG_Controller.php';
+
 /**
  * Dashboard controller
  */
-class Dashboard extends CI_Controller{
+class Dashboard extends SG_Controller{
 
   public function __construct()
   {

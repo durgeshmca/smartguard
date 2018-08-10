@@ -1,8 +1,10 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
-
-class Login extends CI_Controller{
+require APPPATH . '/libraries/SG_Controller.php';
+/**
+ * Login controller
+ */
+class Login extends SG_Controller{
 
   public function __construct()
   {
@@ -13,7 +15,7 @@ class Login extends CI_Controller{
   }
 /**
  * method to handle user login and session binding
- * 
+ *
  * @param user_name login id of the user
  * @param pwd       password of the user
  */
@@ -49,7 +51,10 @@ class Login extends CI_Controller{
               $_SESSION['userDetails'] ['group_id']  = $loginData['group_id'];
               $_SESSION['userDetails'] ['owner_id']  = $loginData['owner_id'];
               //get menu
-              $_SESSION['menu'] = $this->menu_model->getMenu($loginData['user_id'], $loginData['group_id']);
+              $_SESSION['menu'] = $this->menu_model
+                                      ->getMenu($loginData['user_id'],
+                                                $loginData['group_id']
+                                              );
               $this->session->set_flashdata('success', 'You have logged in successfully');
               redirect('admin/dashboard');
             } else {
@@ -66,6 +71,12 @@ class Login extends CI_Controller{
     }
 
 
+  }
+
+  public function logOut()
+  {
+    session_destroy();
+    redirect('admin/login');
   }
 
 }
