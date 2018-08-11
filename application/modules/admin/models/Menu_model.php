@@ -18,7 +18,7 @@ class Menu_model extends CI_Model{
     return $menuArray;
   }
 
-  private function getMenuIds($groupID = 0)
+  public function getMenuIds($groupID = 0)
   {
 
     $menu_rights = $this->getMenuRights($groupID);

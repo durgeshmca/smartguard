@@ -30,6 +30,16 @@
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo base_url('public/assets/') ?>dist/js/demo.js"></script>
 <script type="text/javascript">
+$(document).ready(function(){
+    $("#search-btn").click(function(){
+      var search = $('#menu_search').val();
+        $.ajax({url: "/admin/menu/index/"+search, success: function(result){
+            $(".sidebar-menu").html(result);
+        },error: function(error){
+            alert('error');
+        }});
+    });
+});
 setTimeout(function(){
   $('.alert').fadeOut(2000);
   },2000);

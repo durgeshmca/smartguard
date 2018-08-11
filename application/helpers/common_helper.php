@@ -8,3 +8,9 @@
         $CI->load->view($view, $data);
         $CI->load->view('tempalate/footer', $data);
     }
+function pr($array)
+{
+  echo '<pre>';
+  print_r($array);
+  die;
+}

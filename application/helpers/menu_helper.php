@@ -11,15 +11,16 @@ function getSubMenu($menuId, $menuArray = array())
 
     return $subMenu;
   }
-//get complete menu 
-  function getCompleteMenu(array $menuIds)
+//get complete menu
+  function getCompleteMenu(array $menuIds, $isSearch = FALSE)
   {
     $menuArray = array();
+
     //process menu
     //create an array according to menu
     if (is_array($menuIds)) {
         foreach ($menuIds as  $menuItem) {
-          if ($menuItem['parent_id'] == 0) { //for main menus
+          if ($menuItem['parent_id'] == 0 || $isSearch) { //for main menus
             $menuArray[$menuItem['menu_id']] = $menuItem;
           }
         }
@@ -61,10 +62,10 @@ function getSubMenu($menuId, $menuArray = array())
   }
 
   //render menu for admin
-  function renderMenu()
+  function renderMenu($inputMenu = array())
   {
     $menu = '';
-      foreach ($_SESSION['menu'] as $menuId => $menuItem) {
+      foreach ($inputMenu as $menuId => $menuItem) {
           //for level 0
             if (array_key_exists('sub', $menuItem) && count($menuItem['sub'] > 0)) {
               $menu .= '<li class="treeview">
@@ -85,7 +86,7 @@ function getSubMenu($menuId, $menuArray = array())
                         </span>
                         </a>';
                 $menu .= '<ul class="treeview-menu">';
-                  
+
                 foreach ($menuItem1['sub'] as $menuId2 => $menuItem2) {
                   if (array_key_exists('sub', $menuItem2) && count($menuItem2['sub'] > 0)) {
                     $menu .= '<li class="treeview">
