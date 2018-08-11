@@ -76,7 +76,7 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
+$config['language']	= (isset($_SESSION['lang']))? $_SESSION['lang'] : getenv('DEFAULT_LANG');
 
 /*
 |--------------------------------------------------------------------------

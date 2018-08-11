@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <title>Smartguard |<?php echo ucwords($this->router->fetch_class()); ?></title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -301,3 +301,24 @@
 
     </nav>
   </header>
+  <div class="content-wrapper">
+    <!-- alert -->
+    <?php if ( null !== $this->session->flashdata( "success" ) ) { ?>
+         <div class="alert alert-success" role="alert">
+             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+             <!-- <h4 class="alert-heading"><?php //echo $this->session->flashdata( "greetings" ) ?></h4> -->
+             <p><?php echo $this->session->flashdata( "success" ) ; ?></p>
+         </div>
+     <?php } ?>
+     <?php if ( null !== $this->session->flashdata( "error" ) ) { ?>
+          <div class="alert alert-danger" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+              <!-- <h4 class="alert-heading"><?php //echo $this->session->flashdata( "greetings" ) ?></h4> -->
+              <p><?php echo $this->session->flashdata( "error" ) ; ?></p>
+          </div>
+      <?php } ?>
+    <!-- //alert -->

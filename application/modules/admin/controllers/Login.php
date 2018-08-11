@@ -12,6 +12,7 @@ class Login extends SG_Controller{
     $this->load->library('form_validation');
     $this->load->model(array('login_model', 'menu_model'));
     $this->load->helper('menu');
+    $this->lang->load('common', $this->language);
   }
 /**
  * method to handle user login and session binding
@@ -55,10 +56,10 @@ class Login extends SG_Controller{
                                       ->getMenu($loginData['user_id'],
                                                 $loginData['group_id']
                                               );
-              $this->session->set_flashdata('success', 'You have logged in successfully');
+              $this->session->set_flashdata('success', $this->lang->line('login_success'));
               redirect('admin/dashboard');
             } else {
-              $this->session->set_flashdata('error', 'Invalid Login Credentials');
+              $this->session->set_flashdata('error', $this->lang->line('invalid_cred'));
             }
           }
       }
@@ -67,7 +68,7 @@ class Login extends SG_Controller{
       //log error
       $message = $e->getMessage().' Error at line: '.__LINE__.' in file: '.__FILE__.' class: '.__CLASS__.' method: '. __METHOD__.'';
       log_message('error', $message);
-      show_error('Oops ! Some error occured. Please retry.');
+      show_error($this->lang->line('try_again'));
     }
 
 

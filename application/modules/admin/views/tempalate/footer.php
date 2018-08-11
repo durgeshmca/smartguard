@@ -29,5 +29,10 @@
 <script src="<?php echo base_url('public/assets/') ?>dist/js/pages/dashboard2.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="<?php echo base_url('public/assets/') ?>dist/js/demo.js"></script>
+<script type="text/javascript">
+setTimeout(function(){
+  $('.alert').fadeOut(2000);
+  },2000);
+</script>
 </body>
 </html>
